@@ -5,9 +5,10 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "start": "webpack-dev-server",
-   "transpile": "babel src -d dist --copy-files"
-  },
+    "start": "webpack-dev-server --open",
+  "build": "webpack --mode production"
+ 
+	},
   "author": "",
   "license": "ISC",
   "devDependencies": {
